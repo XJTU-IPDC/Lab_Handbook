@@ -14,5 +14,7 @@ IPDC生存手册
 ## 手册目录
 
 - [Enjoy Study](./enjoy_study/README.md)
-  - [服务器使用手册](./enjoy_study/server_handbook.md)
-- [Enjoy Life](enjoy_life/README.md)
+  - [服务器使用手册](./enjoy_study/server.md)
+  - [网盘使用手册](./enjoy_study/ipdc_driver.md)
+- [Enjoy Life](./enjoy_life/README.md)
+  - [创新港运动手册](./enjoy_life/sport.md)
