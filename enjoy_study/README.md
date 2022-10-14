@@ -11,4 +11,5 @@
 以下为本板块目录
 
 - [服务器使用手册](./server_handbook.md)
-
+- [网盘使用手册](./enjoy_study/ipdc_driver.md)
+- [奖学金评定](./enjoy_study/scholarship.md)
