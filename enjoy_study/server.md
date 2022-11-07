@@ -21,3 +21,44 @@
 2. 如需使用服务器可联系任一管理员创建账号，使用账号均为普通用户权限
 3. 在使用过程中有任何问题及时联系管理员进行处理
 4. 如果需要使用显卡进行深度学习训练，请先用`watch -n 1 nvidia-smi`命令查看并选择未被占用的显卡进行使用，Pytorch环境下使用`torch.cuda.set_device(gpu_idx)`设置指定的GPU
+
+#### 用户目录下conda安装
+
+Python 环境推荐使用Anaconda，可以每个普通用户自行安装
+
+1. 首先创建目录 Downloads 用来存放下载文件
+
+   ```shell
+   $ mkdir Downloads
+
+   ```
+
+2. 进入 Downloads 文件夹下
+
+   ```shell
+   $ cd Downloads
+
+   ```
+
+3. 下载 Anaconda 安装包
+
+   ```shell
+   $ wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
+
+   ```
+
+4. 给安装包添加执行权限
+
+   ```shell
+   $ chmod +x Anaconda3-2022.05-Linux-x86_64.sh
+
+   ```
+
+5. 执行安装程序，一路回车，遇到选项就填 `yes`
+
+   ```
+   $ ./Anaconda3-2022.05-Linux-x86_64.sh
+
+   ```
+
+6. 重新进入命令行即可激活 `conda` 环境
