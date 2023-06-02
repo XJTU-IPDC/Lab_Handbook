@@ -19,3 +19,4 @@ IPDC生存手册
   - [奖学金评定](./enjoy_study/scholarship.md)
 - [Enjoy Life](./enjoy_life/README.md)
   - [创新港运动手册](./enjoy_life/sport.md)
+  - [组内人事安排](./enjoy_life/manage.md)
