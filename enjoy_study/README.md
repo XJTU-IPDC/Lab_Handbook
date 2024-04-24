@@ -10,7 +10,7 @@
 
 以下为本板块目录
 
-- [服务器使用手册](./server_handbook.md)
-- [网盘使用手册](./ipdc_driver.md)
-- [奖学金评定](./scholarship.md)
-- [学校办事指南](./office.md)
+- [服务器使用手册](./server)
+- [网盘使用手册](./ipdc_driver)
+- [奖学金评定](./scholarship)
+- [项目材料指南](./office)
