@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "IPDC 生存手册",
   description: "智能感知与决策研究中心生存指南",
+  base: '/Lab_Handbook/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
