@@ -32,11 +32,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/XJTU-IPDC' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/KezhiAdore/rldoc/tree/main/docs/:path',
+      pattern: 'https://github.com/XJTU-IPDC/Lab_Handbook/tree/main/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
