@@ -33,6 +33,44 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/KezhiAdore/rldoc/tree/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
+    },
+
+    footer: {
+      message: '基于 GPL3.0 许可发布',
+      copyright: `版权所有 © 2024-${new Date().getFullYear()} Yu Zhao`
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    outline: {
+      label: '页面导航'
+    },
+
+    search: {
+      provider: 'local'
+    },
+
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式'
   }
 })
