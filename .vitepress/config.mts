@@ -50,7 +50,7 @@ export default defineConfig({
 
     footer: {
       message: '基于 GPL3.0 许可发布',
-      copyright: `版权所有 © 2024-${new Date().getFullYear()} Yu Zhao`
+      copyright: `版权所有 © 2024-${new Date().getFullYear()} IPDC`
     },
 
     docFooter: {
